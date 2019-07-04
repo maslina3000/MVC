@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm("Test", "Home", FormMethod.Get))
+    {
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+
+
+    <p class="lead">
+        <b>Вопрос</b><br>
+        <input type="text" name = "str" size="40"/>
+        
+    </p>
+    <p><input type = "submit" value="Submit" class="btn btn-primary btn-lg"/> </p>
+</div> 
+    }
+
+
+
